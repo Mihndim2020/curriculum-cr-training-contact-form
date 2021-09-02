@@ -345,6 +345,7 @@ footer form {
   color: white;
   margin: 2rem;
   padding: 2rem;
+  border-radius: 35px 2px 2px 2px;
 }
 
 footer form .contact-me {
@@ -360,6 +361,8 @@ footer form .action-text {
 form input {
   width: 50rem;
   height: 3rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
   margin: 0.3rem 0.1rem;
   border-radius: 5px;
   border: none;
@@ -368,11 +371,21 @@ form input {
 form textarea {
   width: 50rem;
   height: 12rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
   margin: 0.3rem 0.1rem;
   border-radius: 5px;
   border: none;
 }
 
 footer > form button {
-  text-align: left;
+  width: 15rem;
+  height: 3rem;
+  font-size: 1.7rem;
+  color: #6070FF;
+  margin: 0.6rem 0.1rem;
+  border-radius: 5px;
+  border: none;
+  justify-self: left;
+
 }
