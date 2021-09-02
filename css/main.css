@@ -325,3 +325,54 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E5E5E5;
+  margin: 0 auto;
+}
+
+footer form {
+  display: flex;
+  text-align: center;
+  width: 60rem;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: #6070FF;
+  color: white;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+footer form .contact-me {
+  font-size: 4rem;
+}
+
+footer form .action-text {
+  font-size: 1.5rem;
+  align-self: flex-start;
+  padding: 1rem 2.8rem;
+}
+
+form input {
+  width: 50rem;
+  height: 3rem;
+  margin: 0.3rem 0.1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+form textarea {
+  width: 50rem;
+  height: 12rem;
+  margin: 0.3rem 0.1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+footer > form button {
+  text-align: left;
+}
